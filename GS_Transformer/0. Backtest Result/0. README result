@@ -1,0 +1,24 @@
+Due to limited time, we only test the most recent 50 days, and got a decent result.
+
+backtest.py: 
+    used to analyze the transactions in backtest (daily transactions are stores in results_csv folder)
+    backtest period: 20211022 ~ 20220104 (51 trading days)
+    please check the .py (with comments) for details
+
+important statistics (.png)
+    can be created with backtest.py
+    total return: 2.3045%
+    annualized return 11.8938%
+    annualized volatility = 4.2294%
+    max drawdown: -1.4708%
+    sharpe ratio: 2.812176
+    calmar: 8.086801
+
+accumulated wealth (.png):
+    we assume we start with 20k
+
+earnings per day (.png):
+    earning we create every day (without considering some fees)
+
+when do transactions usually happen (.png):
+    roughly depict when our strategy will initate a transaction during the backtest period
